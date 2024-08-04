@@ -81,8 +81,10 @@ body {
   background: var(--main-gray);
   background-image: 
     linear-gradient(62deg, rgba(58, 61, 64, 0.8) 0%, rgba(24, 23, 25, 0.8) 100%),
-    url('https://raw.githubusercontent.com/RayHoLam/My-Profile/main/Patten.jpg'); /* Photo by JJ Ying on Unsplash */
-  background-blend-mode: overlay; /* 使用 overlay 模式融合背景 */
+    url('https://raw.githubusercontent.com/RayHoLam/My-Profile/main/Patten.jpg');
+  background-blend-mode: overlay;
+  background-size: cover; /* 或使用 contain */
+  background-position: center; /* 使圖片居中 */
 }
 
 h1,
