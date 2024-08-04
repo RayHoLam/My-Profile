@@ -151,16 +151,16 @@
 <section id="survey" class="survey-section">
     <div>
         <h2 style="color: #1b1b32;">Website Design Survey</h2>
-        <form id="survey-form">
+        <form id="survey-form" action="https://formspree.io/f/xpwadbja" method="POST">
             <label>How satisfied are you with the website overall?</label><br>
-            <label><input type="radio" name="satisfaction" value="非常滿意"> Very Satisfied</label><br>
+            <label><input type="radio" name="satisfaction" value="非常滿意" required> Very Satisfied</label><br>
             <label><input type="radio" name="satisfaction" value="滿意"> Satisfied</label><br>
             <label><input type="radio" name="satisfaction" value="一般"> Neutral</label><br>
             <label><input type="radio" name="satisfaction" value="不滿意"> Dissatisfied</label><br>
             <label><input type="radio" name="satisfaction" value="非常不滿意"> Very Dissatisfied</label><br><br>
 
             <label>What is your favorite part of the website?</label><br>
-            <label><input type="radio" name="favoritePart" value="設計"> Design</label><br>
+            <label><input type="radio" name="favoritePart" value="設計" required> Design</label><br>
             <label><input type="radio" name="favoritePart" value="內容"> Content</label><br>
             <label><input type="radio" name="favoritePart" value="功能"> Features</label><br>
             <label><input type="radio" name="favoritePart" value="其他"> Other</label><br><br>
@@ -169,7 +169,7 @@
             <textarea name="features" rows="4" cols="50" placeholder="Please enter your suggestions..."></textarea><br><br>
 
             <label>How would you rate the overall usability of the website?</label><br>
-            <label><input type="radio" name="usability" value="非常好"> Excellent</label><br>
+            <label><input type="radio" name="usability" value="非常好" required> Excellent</label><br>
             <label><input type="radio" name="usability" value="好"> Good</label><br>
             <label><input type="radio" name="usability" value="一般"> Average</label><br>
             <label><input type="radio" name="usability" value="差"> Poor</label><br><br>
