@@ -179,7 +179,9 @@
 
             <button type="submit">Submit Survey</button>
         </form>
-        <div id="submission-message" style="display:none; margin-top: 1rem;">Survey submitted, thank you for your feedback!</div>
+        <div id="submission-message" style="display:none; margin-top: 1rem;">
+            Survey submitted, thank you for your feedback!
+        </div>
     </div>
 </section>
 <!-- SURVEY SECTION -->
@@ -193,6 +195,7 @@
 
 <!-- SCRIPT -->
 <script>
+
     function showSection(sectionId) {
         document.querySelectorAll('section').forEach(section => {
             section.style.display = 'none';
@@ -201,16 +204,25 @@
     }
 
     document.getElementById('survey-form').addEventListener('submit', function(event) {
-        event.preventDefault();
-        const formData = new FormData(this);
-        fetch('/submit-survey', {
+        event.preventDefault(); 
+
+        const form = this;
+
+        fetch(form.action, {
             method: 'POST',
-            body: formData
+            body: new FormData(form),
+            headers: {
+                'Accept': 'application/json'
+            }
         }).then(response => {
             if (response.ok) {
-                document.getElementById('submission-message').style.display = 'block';
-                this.reset();
+                document.getElementById('submission-message').style.display = 'block'; 
+                form.reset(); 
+            } else {
+                throw new Error('提交失敗');
             }
+        }).catch(error => {
+            console.error('Error:', error);
         });
     });
 </script>
