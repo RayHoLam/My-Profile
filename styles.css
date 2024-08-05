@@ -164,6 +164,11 @@ img {
     background-position: center; 
 }
 
+.about-section {
+    min-height: 80vh;
+    margin-bottom: 30px;
+}
+
 .about-section > p {
     font-size: 3rem;
     font-weight: 200;
@@ -340,8 +345,6 @@ footer {
     background: var(--main-gray);
     border-top: 4px solid var(--main-red);
     color: var(--main-white);
-    margin-top: 10px;
-    bottom: 0;
 }
 
 footer > p {
