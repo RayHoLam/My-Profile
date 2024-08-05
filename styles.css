@@ -173,8 +173,8 @@ img {
     align-items: center;
     border-radius: 20px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 1), -4px -4px 10px rgba(255, 255, 255, 0.2);
-    padding: 30px 50px;
-    margin: 30px 100px;
+    padding: 30px 50px 5px 50px;
+    margin: 30px 100px 30px 100px;
     font-style: italic, bold;
     color: var(--main-beige);
 }
