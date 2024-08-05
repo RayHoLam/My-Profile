@@ -165,12 +165,8 @@ img {
 }
 
 .about-section {
-    min-height: 80vh;
+    min-height: 60vh;
     margin-bottom: 30px;
-}
-
-.about-section > h1 {
-    margin-top: 40px;
 }
 
 .about-section > p {
