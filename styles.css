@@ -175,7 +175,6 @@ img {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 1), -4px -4px 10px rgba(255, 255, 255, 0.2);
     padding: 30px 50px;
     margin: 30px 100px;
-    margin-bottom: 30px;
     font-style: italic, bold;
     color: var(--main-beige);
 }
@@ -341,6 +340,8 @@ footer {
     background: var(--main-gray);
     border-top: 4px solid var(--main-red);
     color: var(--main-white);
+    margin-top: 10px;
+    bottom: 0;
 }
 
 footer > p {
