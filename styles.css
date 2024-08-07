@@ -164,12 +164,7 @@ img {
     background-position: center; 
 }
 
-.about-section > p {
-    font-size: 3rem;
-    font-weight: 200;
-    height: 200;
-    font-style: italic, bold;
-    color: var(--main-beige);
+.intro{
     border: 2px solid #1b1b32; 
     display: flex;
     background-color: var(--main-gray); 
@@ -185,6 +180,14 @@ img {
     background-blend-mode: overlay;
     background-size: cover; 
     background-position: center; 
+}
+
+.intro > p {
+    font-size: 3rem;
+    font-weight: 200;
+    height: 200;
+    font-style: italic, bold;
+    color: var(--main-beige);
 }
 
 /* PROJECTS SECTION */
@@ -304,6 +307,8 @@ img {
     border-radius: 10px;
     background-size: contain;
     background-position: center;
+    left: 50%;
+    right: 50%;
 }
 
 #certificates > h2 {
