@@ -31,19 +31,11 @@ html {
     html {
         font-size: 60%;
     }
-    
-    .intro{
-        height: 36vh;
-    }
 }
 
 @media (max-width: 61.25em) {
     html {
         font-size: 58%;
-    }
-    
-    .intro{
-        height: 34.8vh;
     }
 }
 
@@ -55,6 +47,10 @@ html {
     .certificates-section {
         padding: 6rem 1rem;
     }
+  
+    .about-section {
+        padding: 6rem 1rem;
+    }
 
     .projects-grid {
         grid-template-columns: 1fr;
@@ -63,17 +59,17 @@ html {
     .certificates-grid {
         grid-template-columns: 1fr;
     }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 28.75em) {
     html {
         font-size: 55%;
     }
-    
-    .intro{
-        height: 33vh;
-    }
-  
+
     .projects-section-header {
         font-size: 4rem;
     }
