@@ -172,18 +172,23 @@ img {
     background-position: center; 
 }
 
-.about-section > p {
-    font-size: 3rem;
+.about-con {
+    border: 2px solid #1b1b32; 
+    background-color: white; 
+    padding: 2rem; 
+    border-radius: 20px;
     font-weight: 200;
-    height: 200;
     display: flex;
+    height: 200;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
+    max-width: 600px; 
+    text-align: left; 
+    font-size: 3rem;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 1), -4px -4px 10px rgba(255, 255, 255, 0.2);
     padding: 30px 50px 5px 50px;
     margin: 30px 100px 30px 100px;
-    font-style: italic, bold;
+    font-style: italic;
     color: var(--main-beige);
 }
 
