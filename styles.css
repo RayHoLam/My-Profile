@@ -31,11 +31,19 @@ html {
     html {
         font-size: 60%;
     }
+    
+    .intro{
+        height: 36vh;
+    }
 }
 
 @media (max-width: 61.25em) {
     html {
         font-size: 58%;
+    }
+    
+    .intro{
+        height: 34.8vh;
     }
 }
 
@@ -60,6 +68,10 @@ html {
 @media (max-width: 28.75em) {
     html {
         font-size: 55%;
+    }
+    
+    .intro{
+        height: 33vh;
     }
   
     .projects-section-header {
