@@ -195,7 +195,7 @@ img {
     height: 200px; 
     font-style: italic; 
     color: var(--main-beige);
-    margin: 0px;
+    margin-bottom: auto;
 }
 
 /* PROJECTS SECTION */
