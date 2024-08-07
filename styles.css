@@ -165,7 +165,7 @@ img {
 }
 
 .intro{
-    height: 80vh;
+    height: 70vh;
     border: 2px solid #1b1b32; 
     display: flex;
     background-color: var(--main-gray); 
