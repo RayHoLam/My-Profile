@@ -170,9 +170,6 @@ img {
     height: 200;
     font-style: italic, bold;
     color: var(--main-beige);
-}
-
-.intro{
     border: 2px solid #1b1b32; 
     display: flex;
     background-color: var(--main-gray); 
