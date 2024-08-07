@@ -197,6 +197,10 @@ img {
     color: var(--main-beige);
 }
 
+.about-con > p{
+    margin-bottom: 20px;
+}
+
 /* PROJECTS SECTION */
 .projects-section {
     text-align: center;
