@@ -172,12 +172,15 @@ img {
     background-position: center; 
 }
 
+.about-section header{
+    font-size: 3rem; 
+}
 .about-con {
     border: 2px solid #1b1b32; 
     padding: 2rem; 
     border-radius: 20px;
     font-weight: 200;
-    font-size: 1.5rem; 
+    font-size: 1rem; 
     display: flex;
     width: 80%;
     justify-content: center;
@@ -193,7 +196,7 @@ img {
     background-size: 3905px 2929px;
     background-position: center;
     padding: 30px 50px 5px 50px;
-    margin: 30px 100px 100px 100px;
+    margin: 30px 120px 100px 120px;
     font-style: italic;
     color: var(--main-beige);
 }
